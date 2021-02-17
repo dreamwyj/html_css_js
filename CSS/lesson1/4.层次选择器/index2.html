@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*p{*/
+        /*background: darksalmon;*/
+        /*}*/
+        body > p {
+            background: cadetblue;
+        }
+
+        .active + p {
+            background: brown;
+        }
+
+        .active ~ p {
+            background: bisque;
+        }
+    </style>
+</head>
+<body>
+<p class="active">p0</p>
+<p>p1</p>
+<p>p2</p>
+<p>p3</p>
+<ul>
+    <li>
+        <p>p4</p>
+    </li>
+    <li>
+        <p>p5</p>
+    </li>
+    <li>
+        <p>p6</p>
+    </li>
+
+
+</ul>
+<p>p7</p>
+
+
+<p>p8</p>
+</body>
+</html>

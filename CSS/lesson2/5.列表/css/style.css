@@ -1,0 +1,45 @@
+#nav{
+    background: #9898f1;
+    width: 250px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    text-indent: 1em;
+    line-height: 35px;
+    /*background: #9898f1;*/
+    text-align: center;
+    background: red url(../images/向下箭头.png) 232px 20px no-repeat;
+
+}
+/* ul li */
+/*
+list-style
+none 去掉原点
+circle 空心圆
+decimal 数字
+square 正方形
+
+ */
+/*ul{*/
+    /*background: aquamarine;*/
+/*}*/
+ul li{
+
+    background:  url(../images/25向右箭头.png) 182px 4px no-repeat;
+    height: 30px;
+    list-style: none;
+    text-indent: 1em;
+
+}
+a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+a:hover{
+    color: orangered;
+    text-decoration: underline;
+
+}
